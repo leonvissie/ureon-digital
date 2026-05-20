@@ -2,7 +2,7 @@ export const apps = [
   {
     slug: "cinlo",
     name: "Cinlo",
-    status: "Free",
+    status: "Entertainment",
     mood: "Cinematic · Vibrant",
     description: "Find award-nominated films worth watching.",
     detail: "A focused movie discovery app for people who care about exceptional films.",
@@ -12,7 +12,7 @@ export const apps = [
   {
     slug: "guncerts",
     name: "GunCerts",
-    status: "Paid",
+    status: "Productivity",
     mood: "Trustworthy · Secure",
     description: "Your digital firearm licence companion.",
     detail: "Manage firearm renewal workflows, documents and certificates with ease.",

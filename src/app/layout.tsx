@@ -10,7 +10,14 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space
 
 export const metadata: Metadata = {
   title: `${site.name} — Independent apps. Purpose built.`,
-  description: site.description
+  description: site.description,
+  icons: {
+    icon: [
+      { url: "/brand/ud-logo-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/brand/ud-logo-64.png", sizes: "64x64", type: "image/png" }
+    ],
+    apple: [{ url: "/brand/ud-logo-64.png", sizes: "64x64", type: "image/png" }]
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
