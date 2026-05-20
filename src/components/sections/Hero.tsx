@@ -37,7 +37,7 @@ export function Hero() {
         <div className="relative min-h-[420px]">
           <motion.a
             href="/apps/cinlo"
-            className="absolute left-[8%] top-[14%] w-56 rotate-[-7deg] rounded-[28px] border border-white/10 bg-white/[0.05] p-6 shadow-card backdrop-blur"
+            className="absolute left-[8%] top-[14%] flex w-56 rotate-[-7deg] flex-col items-center rounded-[28px] border border-white/10 bg-white/[0.05] p-6 text-center shadow-card backdrop-blur"
             animate={{ y: [0, -10, 0] }}
             transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
           >
@@ -48,7 +48,7 @@ export function Hero() {
 
           <motion.a
             href="/apps/guncerts"
-            className="absolute right-[8%] top-[22%] w-56 rotate-[6deg] rounded-[28px] border border-brand-teal/20 bg-white/[0.05] p-6 shadow-card backdrop-blur"
+            className="absolute right-[8%] top-[22%] flex w-56 rotate-[6deg] flex-col items-center rounded-[28px] border border-brand-teal/20 bg-white/[0.05] p-6 text-center shadow-card backdrop-blur"
             animate={{ y: [0, 10, 0] }}
             transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
           >

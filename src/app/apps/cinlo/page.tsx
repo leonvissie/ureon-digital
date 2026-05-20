@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import { Container } from "@/components/layout/Container";
 import { getAppContacts } from "@/config/appContacts";
 import { cn } from "@/lib/utils";
@@ -132,7 +133,16 @@ export default function Page() {
     <main className="pt-36 pb-24">
       <Container>
         <div className="rounded-[32px] border border-white/10 bg-white/[0.03] p-8 sm:p-10">
-          <h1 className="font-display text-5xl font-semibold text-white">Cinlo</h1>
+          <div className="flex items-center gap-4">
+            <Image
+              src="/brand/cinlo-192.png"
+              alt="Cinlo app icon"
+              width={56}
+              height={56}
+              className="rounded-2xl"
+            />
+            <h1 className="font-display text-5xl font-semibold text-white">Cinlo</h1>
+          </div>
           <p className="mt-4 max-w-2xl text-slate-300">Find award-nominated films worth watching.</p>
 
           <div className="mt-8 flex flex-wrap gap-3">
