@@ -10,7 +10,7 @@ export default function Home() {
       <Hero />
       <FeaturedApps />
       <Principles />
-      <About />
+      {/* <About /> */}
       <section className="pb-20">
         <Container>
           <div className="rounded-[32px] border border-brand-teal/20 bg-brand-teal/[0.04] p-8 text-center shadow-glow">
