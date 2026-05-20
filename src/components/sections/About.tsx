@@ -15,7 +15,7 @@ export function About() {
               Ureon Digital is an independent software studio focused on building useful,
               thoughtfully designed apps with privacy and simplicity at their core.
             </p>
-            <a href="mailto:hello@ureondigital.com" className="mt-7 inline-flex text-sm font-medium text-brand-teal">
+            <a href="mailto:ureondigital@gmail.com" className="mt-7 inline-flex text-sm font-medium text-brand-teal">
               Get in touch →
             </a>
           </div>

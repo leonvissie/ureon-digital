@@ -9,7 +9,7 @@ const links = [
   { href: "#apps", label: "Apps" },
   { href: "#philosophy", label: "Philosophy" },
   { href: "#about", label: "About" },
-  { href: "mailto:hello@ureondigital.com", label: "Contact" }
+  { href: "mailto:ureondigital@gmail.com", label: "Contact" }
 ];
 
 export function Navbar() {
@@ -31,7 +31,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="mailto:hello@ureondigital.com"
+            href="mailto:ureondigital@gmail.com"
             className="rounded-full border border-brand-teal/40 px-5 py-2.5 text-white transition hover:border-brand-teal hover:shadow-glow"
           >
             Get in touch

@@ -22,8 +22,8 @@ export function Footer() {
         </div>
         <div className="text-sm">
           <p className="font-medium text-white">Contact</p>
-          <a className="mt-4 block text-brand-teal" href="mailto:hello@ureondigital.com">
-            hello@ureondigital.com
+          <a className="mt-4 block text-brand-teal" href="mailto:ureondigital@gmail.com">
+            ureondigital@gmail.com
           </a>
         </div>
       </Container>
