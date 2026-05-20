@@ -35,17 +35,19 @@ export function Hero() {
         </motion.div>
 
         <div className="relative min-h-[420px]">
-          <motion.div
+          <motion.a
+            href="/apps/cinlo"
             className="absolute left-[8%] top-[14%] w-56 rotate-[-7deg] rounded-[28px] border border-white/10 bg-white/[0.05] p-6 shadow-card backdrop-blur"
             animate={{ y: [0, -10, 0] }}
             transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
           >
-            <GradientRing size={90} />
+            <GradientRing size={90} iconSrc="/brand/cinlo-192-round.png" iconAlt="Cinlo icon" />
             <h2 className="mt-8 font-display text-xl tracking-[0.28em]">CINLO</h2>
             <p className="mt-3 text-sm text-slate-400">Find award-nominated movies.</p>
-          </motion.div>
+          </motion.a>
 
-          <motion.div
+          <motion.a
+            href="/apps/guncerts"
             className="absolute right-[8%] top-[22%] w-56 rotate-[6deg] rounded-[28px] border border-brand-teal/20 bg-white/[0.05] p-6 shadow-card backdrop-blur"
             animate={{ y: [0, 10, 0] }}
             transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
@@ -53,7 +55,7 @@ export function Hero() {
             <ShieldCheck className="h-24 w-24 text-brand-teal drop-shadow-[0_0_24px_rgba(0,229,192,.35)]" />
             <h2 className="mt-8 font-display text-xl tracking-[0.18em]">GUNCERTS</h2>
             <p className="mt-3 text-sm text-slate-400">Manage your firearm licence with ease.</p>
-          </motion.div>
+          </motion.a>
 
           <div className="absolute inset-x-[10%] bottom-12 h-px bg-gradient-to-r from-transparent via-brand-teal/60 to-transparent" />
           <div className="absolute inset-x-[18%] bottom-0 h-24 rounded-full bg-brand-teal/10 blur-3xl" />

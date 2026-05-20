@@ -53,7 +53,7 @@ export function AppCard({ app, large = false }: Props) {
             <p className="mt-3 max-w-sm text-sm leading-6 text-slate-400">{app.detail}</p>
           </div>
           <div className="hidden sm:block">
-            {isCinlo ? <GradientRing size={132} /> : <ShieldCheck className="h-32 w-32 text-brand-teal drop-shadow-[0_0_24px_rgba(0,229,192,.35)]" />}
+            {isCinlo ? <GradientRing size={132} iconSrc="/brand/cinlo-192-round.png" iconAlt="Cinlo icon" /> : <ShieldCheck className="h-32 w-32 text-brand-teal drop-shadow-[0_0_24px_rgba(0,229,192,.35)]" />}
           </div>
         </div>
 

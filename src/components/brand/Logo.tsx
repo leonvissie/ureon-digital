@@ -1,9 +1,9 @@
-import { GradientRing } from "./GradientRing";
+import Image from "next/image";
 
 export function Logo() {
   return (
     <a href="/" className="flex items-center gap-3" aria-label="Ureon Digital home">
-      <GradientRing size={34} />
+      <Image src="/brand/ud-logo-64.png" alt="Ureon Digital logo" width={48} height={48} className="shrink-0 rounded-md" />
       <div className="leading-none">
         <div className="font-display text-sm font-semibold tracking-[0.26em] text-white">
           UREON
