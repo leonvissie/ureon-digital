@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #05080f;
+  --surface: rgba(11, 16, 27, 0.72);
+  --line: rgba(148, 163, 184, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 18% 10%, rgba(0, 229, 192, 0.10), transparent 30%),
+    radial-gradient(circle at 82% 2%, rgba(120, 92, 255, 0.12), transparent 28%),
+    #05080f;
+  color: #f8fafc;
+}
+
+::selection {
+  background: rgba(0, 229, 192, 0.28);
+}
+
+.noise::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: .045;
+  background-image:
+    linear-gradient(rgba(255,255,255,.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.07) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at 50% 20%, black, transparent 68%);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #00E5C0, #0EAEF9 48%, #785CFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass {
+  background: linear-gradient(180deg, rgba(15, 23, 42, .72), rgba(8, 14, 23, .62));
+  border: 1px solid rgba(148, 163, 184, .16);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, .26);
+  backdrop-filter: blur(18px);
+}
